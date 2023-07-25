@@ -28,7 +28,7 @@ function DateTime() {
       };
       const dateFormatted = new Intl.DateTimeFormat('en-US', optionsDate).format(date);
   
-      return `${time} | ${dateFormatted}`;
+      return `${time} ◦ ${dateFormatted}`;
     };
   return (
     <div>

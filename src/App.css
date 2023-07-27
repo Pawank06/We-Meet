@@ -1,6 +1,19 @@
-p{
+.meet-text{
   /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 24px;
 }
+
+.support-icon{
+  display : flex;
+  align-items : center;
+  justify-content : center;
+}
+
+.date-time{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+

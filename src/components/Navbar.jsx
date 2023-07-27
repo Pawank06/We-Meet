@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flow-root">
         <div className=" float-left flex flex-row m-4">
             <img  className="p-4 pr-0" src="./img/wemate.png" alt=""/>
-            <p className=" p-4 pl-1 text-gray-500">Meet</p>
+            <p className=" p-4 pl-1 text-gray-500">Meet</p>jfqdg
         </div>
         <div className=" float-right m-4 text-gray-500">
             <p className="m-4"><DateTime/></p>

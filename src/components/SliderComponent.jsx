@@ -16,18 +16,17 @@ export default function App() {
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
-        <SwiperSlide  className="swiper-slide">
-                <img className="" src="./img/g-meet-0.svg" alt="" />
+        <SwiperSlide className=''>
+            <img src="./img/g-meet-0.svg" alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="swiper-slide">
-            <img src="./img/g-meet0.5.svg" alt="" />
+        <SwiperSlide >
+          <img src="./img/g-meet0.5.svg" alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="swiper-slide">
-            <img src="./img/g-meet-1.svg" alt="" />
+        <SwiperSlide>
+          <img src="./img/g-meet-1.svg" alt="" />
         </SwiperSlide>
-    
       </Swiper>
     </>
   );

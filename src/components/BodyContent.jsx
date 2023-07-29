@@ -50,7 +50,9 @@ const BodyContent = () => {
         </div>
         {/* card div */}
         <div className="col-span-5">
+          
           <SliderComponent/>
+
         </div>
       </div>
     </>

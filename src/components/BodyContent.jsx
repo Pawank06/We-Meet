@@ -10,16 +10,16 @@ const BodyContent = () => {
         <div className="col-span-7 m-12">
           <div className="pt-4 pb-4">
             <div className="ml-12 mr-12">
-              <h1 className="pb-6">
+              <h1 className="pb-6 header-class">
                 Premium video meetings. Now free for everyone.
               </h1>
               <div className=" mr-12">
-                <p className="meet-text-2">
+                <p className="text-gray-600 meet-text-2">
                   We re-engineered the service we built for sacure business
                   meetings, Google Meet, to make it free and available to all.
                 </p>
               </div>
-              <div className="flex items-center">
+              <div className="mt-12 flex items-center">
                 <button class="flex items-center meet-text-3 m-4 ml-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   <p className="p-2 pl-0">
                     <BiVideoPlus />
@@ -47,6 +47,9 @@ const BodyContent = () => {
               </div>
             </div>
           </div>
+          <div className="border-t-2 opacity-75 text-under-text">
+                  <a className="mr-0 ml-0 m-4 a-link pr-1" href="">Learn more </a> <p className="ml-0 m-4">about Google Meet</p>
+                </div>
         </div>
         {/* card div */}
         <div className="col-span-5">

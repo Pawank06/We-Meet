@@ -51,7 +51,9 @@ const BodyContent = () => {
         {/* card div */}
         <div className="col-span-5">
           
+          
           <SliderComponent/>
+          
 
         </div>
       </div>
